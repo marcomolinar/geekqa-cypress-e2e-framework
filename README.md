@@ -109,6 +109,28 @@ All specs passed
 
 ---
 
+## API Testing with Postman
+
+The project also includes API automation testing using Postman over Swagger Petstore.
+
+### CRUD operations implemented:
+- Create User
+- Get User
+- Update User
+- Delete User
+
+### Features:
+- Environment variables
+- Dynamic data generation
+- Assertions
+- Collection Runner execution
+- Response validation
+- Response time validation
+
+### Files:
+- `postman/Petstore_User_API_MarcoMolina.postman_collection.json`
+- `postman/Petstore_User_API_MarcoMolina_ENV.postman_environment.json`
+
 ## Autor
 
 Marco Antonio Molina Rodríguez
