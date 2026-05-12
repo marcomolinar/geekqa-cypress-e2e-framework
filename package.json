@@ -1,0 +1,17 @@
+{
+  "name": "reto-3-cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test:e2e": "cypress run --spec \"cypress/e2e/geekqa_checkout.cy.js\" --browser chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^15.14.2"
+  }
+}
