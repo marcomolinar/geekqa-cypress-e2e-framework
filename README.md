@@ -43,7 +43,7 @@ Se implementó el patrón POM (Page Object Model) para separar:
 - localizadores
 - flujo principal de prueba
 
-Estructura:
+## Project Structure
 
 ```bash
 reto-3-cypress/
@@ -66,12 +66,16 @@ reto-3-cypress/
 │       ├── commands.js
 │       └── e2e.js
 │
+├── postman/
+│   ├── Petstore_User_API_MarcoMolina.postman_collection.json
+│   └── Petstore_User_API_MarcoMolina_ENV.postman_environment.json
+│
 ├── cypress.config.js
 ├── package.json
 ├── package-lock.json
+├── .gitignore
 └── README.md
 ```
-
 ---
 
 ## Instalación del proyecto
